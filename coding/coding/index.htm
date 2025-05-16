@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Little Bit of Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Baloo 2', cursive;
+      background-color: #3B4A78;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .wrapper {
+      position: relative;
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+    }
+
+    .header {
+      background-color: #FF5FA2;
+      padding: 20px;
+      color: white;
+      font-size: 28px;
+      font-weight: 700;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .star {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+    }
+
+    .top-left { top: 0; left: 0; transform: translate(-50%, -50%); }
+    .top-right { top: 0; right: 0; transform: translate(50%, -50%); }
+    .bottom-left { bottom: 0; left: 0; transform: translate(-50%, 50%); }
+    .bottom-right { bottom: 0; right: 0; transform: translate(50%, 50%); }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      gap: 40px;
+    }
+
+    .photo-circle {
+      width: 180px;
+      height: 180px;
+      background-color: #D9D9D9;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .left, .right {
+      flex: 1;
+    }
+
+    .section-title {
+      font-weight: 700;
+      color: #3B4A78;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .box-pink {
+      background-color: #FF5FA2;
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .box-lightpink {
+      background-color: #FFD6F1;
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .quote {
+      background-color: #A0ECE7;
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px;
+      border-radius: 5px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <!-- Stars -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Five-pointed_star.svg" class="star top-left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Five-pointed_star.svg" class="star top-right">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Five-pointed_star.svg" class="star bottom-left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Five-pointed_star.svg" class="star bottom-right">
+
+  <div class="wrapper">
+    <div class="header">Here’s a little bit of me</div>
+
+    <div class="content">
+      <div class="left">
+        <div class="photo-circle"></div>
+        <div class="section-title">Things I Love</div>
+        <div class="box-pink">
+          I’m a cat person, hhh i loveee cattt, aku suka dimsum mentai dan juga matchaa, I binge K-dramas like it’s selfcare., healing sihh, walau kadang lupa waktu hhh, And yass i’m that girl who’s totally into Enhypenn, yasss i’m a engenee, Thann Music!!! is my safe place hahahaa
+        </div>
+      </div>
+      <div class="right">
+        <div class="section-title">This is Me!</div>
+        <div class="box-lightpink">
+          Haii semuaa, aku Murni Aulia Br Tambunan, biasa di panggil Aulia, atau aul, tapi biasanya teman dekat ku manggil nya Murni hehe, khusus yang deket aja sih itu, saat ini aku sedang bersekolah di SMPIT Fitrah Hanniah kelas akhir, dan ingin melanjutkan SMA di SMAN 1 Tambun Selatan, Aamiin. Umurku sekarang 15, sebentar lagi 16 tahun loh, masih lama sih 21 Oktober. Dimasa depan, aku ingin menjadi Dokter cantik atau ngga menjadi Musisi keren. Semoga yang aku inginkan tercapai Aamiin
+        </div>
+      </div>
+    </div>
+
+    <div class="quote">"The more i see, the less i know for sure"</div>
+  </div>
+</body>
+</html>
